@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>Rhymesaurus: The Rhyming Thesaurus</h1>
     <router-view/>
   </div>
 </template>
