@@ -39,7 +39,7 @@ export default {
         }
     },
     methods: {
-      findPhrase() {
+      findPhrase: function() {
         axios.get('https://api.datamuse.com/words', {
           params: {
             rel_bga: this.phrase,
