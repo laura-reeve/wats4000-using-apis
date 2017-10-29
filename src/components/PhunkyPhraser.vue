@@ -1,6 +1,7 @@
 <template>
     <div class="rhymesaurus">
-      <h1>Phunky Phraser: Find a new phrase to use on your friends!</h1>
+      <h1>Phunky Phraser:</h1>
+      <h2>Find a new phrase to use on your friends!</h2>
       <form @click.prevent="findPhrase">
         <p>A word that follows <input type="text" v-model.lazy="phrase"> that also describes <input type="text" v-model.lazy="describes">.<button type="submit">Search</button></p>
       </form>
